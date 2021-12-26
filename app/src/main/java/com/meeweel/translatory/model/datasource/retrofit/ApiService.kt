@@ -1,4 +1,4 @@
-package com.meeweel.translatory.model.datasource
+package com.meeweel.translatory.model.datasource.retrofit
 
 import com.meeweel.translatory.model.data.DataModel
 import io.reactivex.Observable
