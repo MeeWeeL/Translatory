@@ -1,7 +1,9 @@
-package com.meeweel.translatory.model.datasource
+package com.meeweel.translatory.model.datasource.retrofit
 
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import com.meeweel.translatory.model.data.DataModel
+import com.meeweel.translatory.model.datasource.BaseInterceptor
+import com.meeweel.translatory.model.datasource.DataSource
 import io.reactivex.Observable
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
